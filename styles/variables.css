@@ -2,3 +2,53 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --page-inline-padding: 10px;
+  --page-zone-block-padding: 10px;
+  --page-zone-gap: 40px;
+
+  --theme-button-color: rgb(255, 0, 112);
+  --theme-button-font-size: 18px;
+  --theme-button-line-height: 1em;
+  --theme-button-font-weight: 700;
+  --theme-menu-button-hover-color: rgba(255, 0, 112, 0.4);
+
+  --page-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --page-title-font-weight: 700;
+  --page-title-line-height: 0.83em;
+  --page-title-color: rgba(219, 0, 255, 1);
+  --text-shadow-color: rgba(255, 0, 112, 1);
+
+  --title-bg-color: rgb(255, 0, 112);
+  --accent-color: rgb(255, 0, 112);
+  --heading-color: rgba(0, 0, 40, 1);
+
+  --heading-font-weight: 700;
+
+  --gallery-gap: 10px;
+  --gap-between-sections: 50px;
+
+  --image-gap: 10px;
+
+  --card-text-color: rgba(241, 178, 206, 1);
+  --card-text-font-weight: 400;
+
+  --content-text-font-size: 18px;
+  --content-text-line-height: 23.4px;
+
+  --body-bg-picture: url(../images/cover-image-dark.png);
+}
+
+@media (width>=768px) {
+  :root {
+    --page-inline-padding: 20px;
+    --page-zone-block-padding: 20px;
+    --page-zone-gap: 60px;
+
+    --page-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+
+    --gap-between-sections: 80px;
+    --image-gap: 20px;
+    --gallery-gap: 20px;
+  }
+}
