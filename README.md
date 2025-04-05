@@ -1,1 +1,1 @@
-http://github.com/Noxdenovo/slozhno-sosredotochitsya-fd
+https://github.com/Noxdenovo/slozhno-sosredotochitsya-fd
