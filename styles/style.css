@@ -320,7 +320,7 @@
   .what-lowers-concentration {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: min-content, 1fr;
+    grid-template-rows: min-content 1fr;
   }
   .what-lowers-concentration .section__title {
     width: auto;
