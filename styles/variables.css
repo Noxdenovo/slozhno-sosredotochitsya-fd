@@ -6,12 +6,14 @@
   --page-inline-padding: 10px;
   --page-zone-block-padding: 10px;
   --page-zone-gap: 40px;
+  --page-bg-color: #000028;
 
   --theme-button-color: rgb(255, 0, 112);
   --theme-button-font-size: 18px;
   --theme-button-line-height: 1em;
   --theme-button-font-weight: 700;
   --theme-menu-button-hover-color: rgba(255, 0, 112, 0.4);
+  --button-font-weight: 400;
 
   --page-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --page-title-font-weight: 700;

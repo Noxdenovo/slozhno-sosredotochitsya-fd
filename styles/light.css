@@ -16,6 +16,7 @@
   --card-text-color: rgba(53, 52, 48, 1);
   --title-bg-color: rgba(255, 141, 203, 1);
   --page-title-color: rgba(255, 194, 230, 1);
+  --page-bg-color: #fff1f7;
 }
 
 .theme-light .header__rec-button {
@@ -36,6 +37,7 @@
     --title-bg-color: rgba(255, 141, 203, 1);
     --page-title-color: rgba(255, 194, 230, 1);
     --theme-menu-button-hover-color: rgba(50, 49, 45, 0.4);
+    --page-bg-color: #fff1f7;
   }
   .header__rec-button {
     display: none;

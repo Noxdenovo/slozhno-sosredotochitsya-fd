@@ -7,9 +7,11 @@
   gap: var(--page-zone-gap);
   background-image: var(--body-bg-picture);
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   padding-inline: var(--page-inline-padding);
   width: 100%;
+  background-color: var(--page-bg-color);
 }
 
 .header {
@@ -54,6 +56,9 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
+  font-weight: var(--button-font-weight);
+  line-height: 25px;
+  letter-spacing: 0;
   color: var(--accent-color);
   display: flex;
   gap: 10px;
@@ -65,6 +70,7 @@
   display: inline-block;
   border-radius: 4.5px;
   background-color: rgb(255, 0, 112);
+  box-shadow: 0px 0px 4px 2px var(--accent-color);
   width: 9px;
   height: 9px;
 }
@@ -103,6 +109,7 @@
   font-weight: var(--theme-button-font-weight);
   font-size: var(--theme-button-font-size);
   line-height: var(--theme-button-line-height);
+  font-weight: var(--button-font-weight);
   min-inline-size: 70px;
   min-block-size: 26px;
 }
@@ -168,6 +175,9 @@
   color: var(--card-text-color);
 }
 
+.card__text:not(:last-of-type) {
+  margin-block-end: 10px;
+}
 .card__heading {
   margin-block-end: 10px;
 }

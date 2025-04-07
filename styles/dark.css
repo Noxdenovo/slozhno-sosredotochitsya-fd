@@ -18,6 +18,7 @@
   --title-bg-color: rgb(255, 0, 112);
   --theme-button-font-weight: 700;
   --theme-menu-button-hover-color: rgba(255, 0, 112, 0.4);
+  --page-bg-color: #000028;
 }
 
 .theme-dark .header__rec-button {
